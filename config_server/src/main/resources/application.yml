@@ -8,4 +8,5 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/Winst0nPy/ctd_microservices
+          searchPaths: config_yml
