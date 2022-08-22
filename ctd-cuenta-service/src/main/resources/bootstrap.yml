@@ -3,6 +3,6 @@ spring:
     name: ctd-cuenta-service
   cloud:
     config:
-      uri: ${CONFIG_SERVER:http://localhost:8888/}
+      uri: ${CONFIG_SERVER:http://localhost:8888}
   profiles:
     active: dev
